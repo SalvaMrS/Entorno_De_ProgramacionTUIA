@@ -2,8 +2,6 @@
 
 #mostrar un top 10 de palabras de mas de 4 letras con mas apariciones
 
-PALABRAS=$(cat $1)
-
 declare -A REPETICIONES
 
 for PALABRA in $(grep -P -o '\b\w+\b' $1); do
@@ -20,6 +18,8 @@ done
 
 LISTA=$( echo ${REPETICIONES[@]} | sort | uniq -c | sort -nr | head -10 )
 
+echo $LISTA
+
 TOP=0
 PROV=""
 
@@ -30,6 +30,9 @@ for E in $LISTA; do
 	fi
 done
 
+echo $TOP
+
+echo ""
 echo "--- 10 palabras con mas apariciones en $1 ---"
 echo ""
 
