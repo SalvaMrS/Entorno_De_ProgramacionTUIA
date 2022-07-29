@@ -5,7 +5,7 @@ MENU () {
 	echo "¿Que script desea ejecutar?"
 	echo " "
 
-	#Selección del scrio a ejecutar
+	#Selección del script a ejecutar
 	select OPCION in $( ls -1 "./Scripts/" | grep \.sh$ ) "EXIT"
 	do
 		echo " "
@@ -44,7 +44,7 @@ ARCHIVO () {
 			echo
 			read -p "Presione cualquier tecla para continuar."
 		fi
-		ARCHIVO
+		MENU
 		break
 	done
 }
