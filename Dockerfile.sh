@@ -41,6 +41,8 @@ ARCHIVO () {
 			read -p "presione cualquier tecla para continuar"
 		else
 			bash ./Scripts/$1 ./Archivos/$ARCH
+			echo
+			read -p "Presione cualquier tecla para continuar."
 		fi
 		ARCHIVO
 		break
