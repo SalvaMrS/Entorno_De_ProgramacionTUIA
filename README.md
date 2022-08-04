@@ -77,7 +77,7 @@ realizado esto y teniendo  instalado docker en nuestra computadora
 (https://docs.docker.com/desktop/) ingresamos por consola al directorio 
 del proyecto y creamos el contenedor con los siguientes comandos:
 
-- $ sudo docker build --tag tp-entorno.
+- $ sudo docker build --tag tp-entorno .
 
 Y lo ejecutamos con:
 
