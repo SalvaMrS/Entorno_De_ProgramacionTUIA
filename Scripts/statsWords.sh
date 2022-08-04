@@ -30,7 +30,7 @@ done
 PROMEDIO=$(($TOTAL/$CANTIDAD))
 
 echo
-echo "Del archivo $1 :"
+echo "Del archivo $(basename $1):"
 echo
 echo "-La palabra más larga es \"$LARGO\" con una longitud de $LLARGO caracteres"
 echo

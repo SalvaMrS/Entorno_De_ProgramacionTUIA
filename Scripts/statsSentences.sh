@@ -42,7 +42,7 @@ done
 PROMEDIO=$(($TOTAL/$CANTIDAD))
 
 echo
-echo "Del archivo $1 :"
+echo "Del archivo $(basename $1):"
 echo
 echo "-La oración más larga es: \"$LARGO\" "
 echo "Con una longitud de $LLARGO caracteres"
