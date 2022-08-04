@@ -1,0 +1,38 @@
+1. statsWords.sh
+
+	Indicador estadístico de longitud de palabras.
+
+	Indica del archivo de texto (.txt) ingresado la palabra com mayor cantidad de 
+caracteres, la que posee menor cantidad y el promedio de caracteres por palabra.
+
+
+2. statsUsageWords.sh
+
+	Indicador estadístico de uso de palabras de cuatro letras o más.
+
+	Retorna un top 10 de las palabras de al menos cuatro caracteres con mas 
+apariciones en el archivo de texto ingresado.
+
+
+3. findNames.sh
+
+	Identificación de nombres propios.
+
+	Retorna una lista de palabras con solo la primer letra en mayusculas (Nnnnnn). 
+
+
+4. statsSentences.sh
+
+	Indicador estadístico de longitud de oraciones.
+
+	Retorna la oración con mas caracteres, con menos caracteres y el promedio de 
+caracteres por oracion del archivo. Se considera oracion a las palabras antes de un ". " 
+no se toma en cuenta si se encuentra en otra línea del archivo.
+
+
+5. blankLinesCounter.sh
+
+	Contador de líneas en blanco.
+
+	Retorna la cantidad de lineas en blanco de un archivo. Se considera linea en blanco
+a una linea sin ningún caracter incluido el espacio " ".

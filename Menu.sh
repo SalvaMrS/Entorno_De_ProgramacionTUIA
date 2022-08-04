@@ -6,7 +6,7 @@ MENU () {
 	echo " "
 
 	#Selección del script a ejecutar
-	select OPCION in $( ls -1 "./Scripts/" | grep \.sh$ ) "EXIT"
+	select OPCION in $( ls -1 "./Scripts/" | grep \.sh$ ) "GUIA" "EXIT"
 	do
 		echo " "
 		if [ -e $OPCION ]; then
@@ -15,6 +15,10 @@ MENU () {
 			read -p "Presione cualquier tecla para continuar"
 		elif [ $OPCION == "EXIT" ]; then
 			break
+		elif [ $OPCION == "GUIA" ]; then
+			cat Guia.txt
+			echo
+			read -p "Presione cualquier tecla para continuar."
 		else
 			ARCHIVO $OPCION
 			break
