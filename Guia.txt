@@ -1,3 +1,6 @@
+	La seleccion del script y del archivo de texto se realiza escribiendo el
+número de este y luego pulsando INTRO.
+
 1. statsWords.sh
 
 	Indicador estadístico de longitud de palabras.
