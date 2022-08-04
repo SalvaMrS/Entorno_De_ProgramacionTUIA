@@ -26,13 +26,13 @@ apariciones en el archivo de texto ingresado.
 	Indicador estadístico de longitud de oraciones.
 
 	Retorna la oración con mas caracteres, con menos caracteres y el promedio de 
-caracteres por oracion del archivo. Se considera oracion a las palabras antes de un ". " 
-no se toma en cuenta si se encuentra en otra línea del archivo.
+caracteres por oracion del archivo. Se considera oracion a las palabras antes de un 
+". " no se toma en cuenta si se encuentra en otra línea del archivo.
 
 
 5. blankLinesCounter.sh
 
 	Contador de líneas en blanco.
 
-	Retorna la cantidad de lineas en blanco de un archivo. Se considera linea en blanco
-a una linea sin ningún caracter incluido el espacio " ".
+	Retorna la cantidad de lineas en blanco de un archivo. Se considera linea en 
+blanco a una linea sin ningún caracter incluido el espacio " ".
